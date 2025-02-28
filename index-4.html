@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Services</title>
+	<meta charset="utf-8">
+	<meta name = "format-detection" content = "telephone=no" />
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+	<link rel="stylesheet" href="css/contact-form.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate-1.2.1.js"></script>
+	<script src="js/script.js"></script>
+	<script src='//maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false'></script>
+    <script src="js/TMForm.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+     <script src="js/index.js"></script>
+    
+    
+	<!--[if (gt IE 9)|!(IE)]><!-->
+	<script src="js/wow.js"></script>
+	<script>
+		$(document).ready(function () {
+			if ($('html').hasClass('desktop')) {
+				new WOW().init();
+			}
+		});
+	</script>
+    
+     <style>
+  label {
+    display: inline-block;
+    width: 5em;
+  }
+  fieldset div {
+    margin-bottom: 2em;
+  }
+  fieldset .send {
+    display: inline-block;
+  }
+  .ui-tooltip {
+    width: 210px;
+  }
+  </style>
+	<!--<![endif]-->
+	<!--[if lt IE 8]>
+	<div style=' clear: both; text-align:center; position: relative;'>
+	 <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+		 <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+	 </a>
+	</div>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
+	</head>
+<body class="index-4">
+<!--==============================header=================================-->
+<header id="header">
+	<div id="stuck_container">
+		<div class="container">
+			<div class="row">
+				<div class="grid_12">
+					<h1><a href="index.html">Beauty-House</a><span>Health& Beauty</span></h1>
+					<nav>
+						<ul class="sf-menu">
+							<li><a href="index.html">Home</a>
+								<ul>
+									<li><a href="index-1.html">Relaxation</a></li>
+									<li><a href="index-1.html">Products</a>
+										<ul>
+											<li><a href="index-3.html">Mascara</a></li>
+                                            <li><a href="index-5.html">Powder Cream</a></li>
+											<li><a href="index-6.html">Eye Linear</a></li>
+                                            <li><a href="index-7.html">Lips</a></li>
+										</ul>
+									</li>
+									<li><a href="index-1.html">Services</a></li>
+								</ul>
+							</li>
+							<li><a href="index-1.html">Relaxation</a></li>
+							<li><a href="index-2.html">Products</a></li>
+							<li><a href="index-3.html">Services</a></li>
+							<li class="current"><a href="index-4.html">Contacts</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!--=======content================================-->
+
+<section id="content">
+	<div class="full-width-container block-1">
+	<div class="full-width-container block-2">
+		<div class="container">
+			<div class="row">
+				<div class="grid_5">
+				  <div class="cont-contactBtn">
+					<div class="cont-flip">
+						<div class="front">
+							<a href="#" class="btn btn-white flip">Send Message</a>
+						</div>
+						<div class="back">
+							<a href="#" class="flip close"></a>
+							<form class="contact-form" action="">
+                                <label for="Name" class="gutter"></label>
+								<input class="gutter" type="text" placeholder="Name" title="Please provide your name.">
+                                
+                                <label for=" last Name"></label>
+                                <input type="text" placeholder="Last Name" title="Please provide your last name.">
+                                
+                                 <label for="Telephone" class="gutter"></label>
+								<input class="gutter" type="text" placeholder="Telephone" title="Please provide your phone.">
+                                
+                                <label for="Email"></label>
+								<input type="text" placeholder="Email" title="Please provide your email.">
+                                
+								<textarea name="" id="" placeholder="Leave a message"></textarea>
+								
+							</form>
+                            <div id="send">
+                            <input type="submit"  value="Send" onClick="send()" />
+                            </div>
+						</div>
+					</div>
+               </div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--=======footer=================================-->
+<div id="toTop"><p>TO TOP</p></div>
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="grid_12 copyright">
+				<h2><span>Follow Us</span></h2>
+				<a href="#" ><span class="fa fa-facebook"><img src="images/fs2.jpg" style="border-radius:5px;"/></span></a>
+				<a href="#" ><span class="fa fa-tumblr"><img src="images/g.jpg" style="border-radius:5px;"/></span></a>
+				<a href="#" ><span class="fa fa-google-plus"><img src="images/insta1.jpg" style="border-radius:5px;"/></span></a>
+				<pre>© <span id="copyright-year"></span> |  Privacy Policy</pre>
+			</div>
+		</div>
+	</div>
+	<div class="footer_bottom"><a href="http://www.templatemonster.com/" rel="nofollow"></div>
+</footer>
+
+</body>
+</html>
